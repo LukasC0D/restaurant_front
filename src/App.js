@@ -10,9 +10,11 @@ import Restaurants from './components/restourants/Restaurants';
 import Dishes from './components/dishes/Dishes';
 import Dish from './components/dishes/Dish';
 import RateDish from './components/rateDish/RateDish';
+import logo from './logo.svg'
 
 function App() {
   return (
+    <>
     <BrowserRouter>
       <AuthProvider>
         <Header />
@@ -32,6 +34,12 @@ function App() {
         </div>
       </AuthProvider>
     </BrowserRouter>
+
+<div>
+<img src={logo} className="flex-center" alt="logo" />
+</div>
+
+</>
   );
 }
 
