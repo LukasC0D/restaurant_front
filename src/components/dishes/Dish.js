@@ -15,7 +15,7 @@ const Dish = () => {
       "Content-Type": "application/json",
       Authorization: `Bearer ${auth.getToken()}`,
     };
-    const url = `http://localhost:8000/api/dish`;
+    const url = `http://laravel-11-23-api.herokuapp.com/api/dish`;
 
   useEffect(() => {
     if (id)

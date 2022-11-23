@@ -9,7 +9,7 @@ const RateDish = () => {
   const [item, setItem] = useState({});
   const [rating, setRating] = useState();
   const hs = { Accept: "application/json", "Content-Type": "application/json" };
-  const url = `http://localhost:8000/api/dish`;
+  const url = `http://laravel-11-23-api.herokuapp.com/api/dish`;
   const navigate = useNavigate();
 
   useEffect(() => {
