@@ -7,7 +7,7 @@ const Restaurants = () => {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [posts, setPosts] = useState([]);
-    const url = `http://laravel-11-23-api.herokuapp.com/api/restaurant`;
+    const url = `https://laravel-11-23-api.herokuapp.com/api/restaurant`;
     const auth = useContext(AuthContext);
       const hs = {
         Accept: "application/json",

@@ -14,7 +14,7 @@ const Restaurant = () => {
     "Content-Type": "application/json",
     Authorization: `Bearer ${auth.getToken()}`,
   };
-  const url = `http://laravel-11-23-api.herokuapp.com/api/restaurant`;
+  const url = `https://laravel-11-23-api.herokuapp.com/restaurant`;
 
   useEffect(() => {
     if (id)
