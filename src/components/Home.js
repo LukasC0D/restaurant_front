@@ -8,7 +8,7 @@ const Home = () => {
       {!auth.isLoggedin() ? (
           <>
           <h3 className='text-center pt-5 text-info'>
-            <div>Welcome, please log in.</div>
+            <div>Welcome, please log in</div>
           </h3>        
           </>
           ) : (
@@ -20,7 +20,7 @@ const Home = () => {
             </>
           ) : (
           <h1 className='text-center pt-5 text-primary'>
-            <div>Welcome dear Client.</div>
+            <div>Welcome dear Client</div>
           </h1>
           )
         )

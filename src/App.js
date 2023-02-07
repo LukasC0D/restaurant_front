@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { AuthProvider } from './components/AuthContext';
 import Home from './components/Home';
 import Header from './components/header/Header';
@@ -20,6 +20,7 @@ function App() {
         <Header />
         <div className="container py-3">
           <Routes>
+            <Route path="/" element={<Navigate replace to="/home" />} />
             <Route path="/home" element={<Home />} />
             <Route path="/restaurants" element={<Restaurants />} />
             <Route path="/restaurants/:id" element={<Restaurant />} />

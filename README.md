@@ -4,7 +4,14 @@
 
 Restaurant rate system
 
-## How to run project?
+- Open Url => [Restaurant](https://react-23-11-front.herokuapp.com)
+
+- Log In as Admin username: admin@admin.com
+                  password: lukas
+
+- If you wish to create a fake Client account. Register inside the app                  
+
+## How to run project on pc?
 
 - Download git repository https://github.com/LukasC0D/restaurant_front.git 
 
