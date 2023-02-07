@@ -8,14 +8,14 @@ const Home = () => {
       {!auth.isLoggedin() ? (
           <>
           <h3 className='text-center pt-5 text-info'>
-            <div>Welcome to restaurant, please log in.</div>
+            <div>Welcome, please log in.</div>
           </h3>        
           </>
           ) : (
           auth.getRole() === 2 ? (
             <>
           <h1 className='text-center pt-5 text-success'>
-            <div>Welcome back Boss!!!</div>
+            <div>You logged in as an Admin</div>
           </h1>
             </>
           ) : (

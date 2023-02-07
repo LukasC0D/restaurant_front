@@ -17,8 +17,8 @@ const Header = () => {
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -32,7 +32,7 @@ const Header = () => {
                 isActive ? "nav-link active bg-danger bg-danger text-info rounded" : "nav-link text-white"
               }
                  to="/home">
-                Home
+                <div className='ps-1 pe-1 fs-5'>Home</div>
               </NavLink>
             </li>
             {auth.isLoggedin() ? (
@@ -42,7 +42,7 @@ const Header = () => {
                 isActive ? "nav-link active bg-danger text-info rounded" : "nav-link text-white"
                 } 
                   to="/restaurants">
-                    Restaurants
+                    <div className='ps-1 pe-1 fs-5'>Restaurants</div>
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -50,7 +50,7 @@ const Header = () => {
                 isActive ? "nav-link active bg-danger text-info rounded" : "nav-link text-white"
               } 
                   to="/dishes">
-                    Dishes
+                    <div className='ps-1 pe-1 fs-5'>Dishes</div>
                   </NavLink>
                 </li>
               </>
@@ -65,7 +65,7 @@ const Header = () => {
                 isActive ? "nav-link active bg-danger text-info rounded" : "nav-link text-white"
               } 
                    to="/login">
-                  Login
+                  <div className='ps-1 pe-1 fs-5'>Login</div>
                 </NavLink>
               </li>
               <li className="nav-item">
@@ -73,7 +73,7 @@ const Header = () => {
                 isActive ? "nav-link active bg-danger text-info rounded" : "nav-link text-white"
               } 
                   to="/register">
-                  Register
+                  <div className='ps-1 pe-1 fs-5'>Register</div>
                 </NavLink>
               </li>
             </ul>
@@ -92,7 +92,7 @@ const Header = () => {
                   to="/login"
                   onClick={() => auth.logout()}
                 >
-                  Logout
+                  <div className='ps-1 pe-1 fs-5'>Logout</div>
                 </NavLink>
               </li>
             </ul>
