@@ -8,7 +8,7 @@ function Dishes() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [items, setItems] = useState([]);
   const auth = useContext(AuthContext);
-  const url = `https://laravel-11-23-api.herokuapp.com/api/dish`;
+  const url = `https://laravel-api-02-07.herokuapp.com/api/dish`;
       const hs = {
         Accept: "application/json",
         "Content-Type": "application/json",

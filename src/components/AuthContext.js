@@ -5,7 +5,7 @@ export const AuthContext = createContext();
 export const AuthProvider = ({ children }) => {
 	const [user, setUser] = useState(null);
 	const [token, setToken] = useState(null);
-	const url = "https://laravel-11-23-api.herokuapp.com/api/logout";
+	const url = "https://laravel-api-02-07.herokuapp.com/api/logout";
 	const hs = { headers: { Accept: "application/json", Authorization: `Bearer ${token}` } };
 	const req = { method: "POST", headers: hs };
 

@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { AuthContext } from "./AuthContext";
 
 const Register = () => {
-    const url = `https://laravel-11-23-api.herokuapp.com/api/register`;
+    const url = `https://laravel-api-02-07.herokuapp.com/api/register`;
 	const hs = { Accept: "application/json", "Content-Type": "application/json" };
 	const [userInfo, setUserInfo] = useState({ name: "", email: "", password: "", password_confirmation: "" });
 	const [err, setErr] = useState(null);
