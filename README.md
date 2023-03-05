@@ -3,15 +3,9 @@
 ## Product name 
 
 Restaurant rate system
+             
 
-- Open Url => [Restaurant](https://react-23-11-front.herokuapp.com)
-
-- Log In as Admin username: admin@admin.com
-                  password: lukas
-
-- If you wish to create a fake Client account. Register inside the app                  
-
-## How to run project on pc?
+## How to run 
 
 - Download git repository https://github.com/LukasC0D/restaurant_front.git 
 
@@ -38,11 +32,8 @@ http://localhost:3000
 
 -   Or press this link => [Localhost:3000](http://localhost:3000)
 
-## NOTE!!
-
--This app is active on heroku , so if you want to connect BACK_END part to modify database on your pc  you`ll have to change URL's on this app to your localhost adresess
 
 
-## What technologies I used?
+## What technologies I used
 
 REACT.js
